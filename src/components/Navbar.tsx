@@ -1,6 +1,7 @@
 import ThemeSwitch from "./ThemeSwitch";
 import icon from "../../public/Icon.png";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 function NavBar() {
   return (
