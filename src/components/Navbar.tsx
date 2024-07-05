@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 function NavBar() {
   return (
-    <div className=" w-full border-2 border-red-500 py-6 ">
+    <div className=" w-full py-6 bg-green-50 px-2 ">
       <div className=" flex max-w-7xl justify-between items-center mx-auto  ">
         <div className=" flex">
           <Image src={icon} alt="x" width={40} height={40} />
