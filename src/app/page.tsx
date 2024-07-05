@@ -5,6 +5,7 @@ import ThemeSwitch from "@/components/ThemeSwitch";
 import NavBar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import OurClient from "@/components/OurClient";
+import Community from "@/components/Community";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <OurClient />
+      <Community />
     </main>
   );
 }
