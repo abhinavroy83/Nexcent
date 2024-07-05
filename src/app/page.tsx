@@ -6,6 +6,7 @@ import NavBar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import OurClient from "@/components/OurClient";
 import Community from "@/components/Community";
+import Unlock from "@/components/Unlock";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <OurClient />
       <Community />
+      <Unlock />
     </main>
   );
 }
