@@ -8,6 +8,7 @@ import OurClient from "@/components/OurClient";
 import Community from "@/components/Community";
 import Unlock from "@/components/Unlock";
 import Achievments from "@/components/Achievments";
+import Calender from "@/components/Calender";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Community />
       <Unlock />
       <Achievments />
+      <Calender />
     </main>
   );
 }

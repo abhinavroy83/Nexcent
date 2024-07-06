@@ -7,7 +7,7 @@ function Unlock() {
     <div className=" w-full py-6 px-2 ">
       <div className=" flex max-w-7xl  justify-between items-center mx-auto px-3  ">
         <div>
-          <Image src={icon} alt="x" width={1200} height={1200} />
+          <Image src={icon} alt="x" width={441} height={433} />
         </div>
         <div>
           <p className=" text-4xl font-semibold text-gray-700 max-w-screen-sm ">
