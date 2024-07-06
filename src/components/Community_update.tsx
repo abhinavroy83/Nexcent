@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import pic1 from "../../public/image 18.png";
+import pic2 from "../../public/image 19.png";
+import pic3 from "../../public/image 20.png";
 import right from "../../public/Right.png";
 
 function Community_update() {
@@ -36,7 +38,7 @@ function Community_update() {
             </div>
           </div>
           <div className="relative my-2 h-96 ">
-            <Image src={pic1} alt="x" />
+            <Image src={pic2} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
               <div className="w-80 h-44 rounded-md bg-slate-200 flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold text-center dark:text-gray-700 py-2">
@@ -53,7 +55,7 @@ function Community_update() {
             </div>
           </div>
           <div className="relative my-2 h-96 ">
-            <Image src={pic1} alt="x" />
+            <Image src={pic3} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
               <div className="w-80 h-44  rounded-md bg-slate-200 flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold text-center dark:text-gray-700 py-2">
