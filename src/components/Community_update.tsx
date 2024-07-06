@@ -35,7 +35,7 @@ function Community_update() {
                   <Image src={right} alt="x" width={24} height={24} />
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           <div className="relative my-2 h-96 ">
             <Image src={pic2} alt="x" />
