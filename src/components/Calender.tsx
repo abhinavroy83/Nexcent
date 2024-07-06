@@ -10,7 +10,7 @@ function Calender() {
           <Image src={icon} alt="x" width={441} height={433} />
         </div>
         <div>
-          <p className=" text-4xl font-semibold text-gray-700 max-w-screen-sm  dark:text-white">
+          <p className="text-3xl lg:text-4xl font-semibold text-gray-700 max-w-screen-sm  dark:text-white">
             How to design your site footer like we did{" "}
           </p>
           <p className=" text-sm  max-w-2xl text-gray-500 text-justify py-4 dark:text-white">
@@ -24,7 +24,7 @@ function Calender() {
             hendrerit venenatis libero. Donec consectetur faucibus ipsum id
             gravida.
           </p>
-          <button className=" py-3 px-9 bg-green-500 text-white ">
+          <button className=" py-3 px-9 bg-green-500 text-white rounded-sm ">
             Learn More
           </button>
         </div>

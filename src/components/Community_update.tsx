@@ -18,11 +18,11 @@ function Community_update() {
             membership income and lot's more.​
           </p>
         </div>
-        <div className=" flex  justify-between gap-8">
-          <div className="relative my-2">
+        <div className=" flex justify-between gap-8">
+          <div className="relative my-2 h-96 ">
             <Image src={pic1} alt="x" />
-            <div className="absolute bottom-0 w-full flex justify-center">
-              <div className="w-80 h-44 bg-slate-200 flex flex-col items-center justify-center">
+            <div className="absolute  bottom-0 w-full flex justify-center">
+              <div className="w-80 h-44 rounded-md bg-slate-200 flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold text-center">
                   Creating Streamlined Safeguarding Processes with OneRen
                 </p>
@@ -35,10 +35,10 @@ function Community_update() {
               </div>
             </div>
           </div>
-          <div className="relative my-2">
+          <div className="relative my-2 h-96 ">
             <Image src={pic1} alt="x" />
-            <div className="absolute bottom-0 w-full flex justify-center">
-              <div className="w-80 h-44 bg-slate-200 flex flex-col items-center justify-center">
+            <div className="absolute  bottom-0 w-full flex justify-center">
+              <div className="w-80 h-44 rounded-md bg-slate-200 flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold text-center">
                   Creating Streamlined Safeguarding Processes with OneRen
                 </p>
@@ -51,10 +51,10 @@ function Community_update() {
               </div>
             </div>
           </div>
-          <div className="relative my-2">
+          <div className="relative my-2 h-96 ">
             <Image src={pic1} alt="x" />
-            <div className="absolute bottom-0 w-full flex justify-center">
-              <div className="w-80 h-44 bg-slate-200 flex flex-col items-center justify-center">
+            <div className="absolute  bottom-0 w-full flex justify-center">
+              <div className="w-80 h-44  rounded-md bg-slate-200 flex flex-col items-center justify-center">
                 <p className="text-xl font-semibold text-center">
                   Creating Streamlined Safeguarding Processes with OneRen
                 </p>

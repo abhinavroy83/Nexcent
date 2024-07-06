@@ -6,7 +6,7 @@ function HeroSection() {
     <div className="w-full  bg-green-50 py-14 dark:bg-gray-900 text-gray-900 dark:text-gray-100 ">
       <div className=" flex max-w-7xl justify-between items-center mx-auto ">
         <div>
-          <div className=" px-14">
+          <div className=" px-14 mt-5 lg:mt-0">
             <p className=" text-6xl font-medium py-1">Lesson and insights</p>
             <p className=" text-6xl font-medium text-green-500 py-1 ">
               from 8 years

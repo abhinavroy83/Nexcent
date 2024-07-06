@@ -58,14 +58,14 @@ function Customer() {
           <p className=" text-sm text-gray-500">
             British Dragon Boat Racing Association
           </p>
-          <div className=" flex justify-evenly items-center w-full">
+          <div className="flex justify-evenly items-center w-full">
             {locodata?.map((item, index) => (
               <div className=" py-5" key={index}>
                 <Image src={item.icon} alt="x" width={48} height={48} />
               </div>
             ))}
-            <div className=" flex">
-              <p className=" text-xl text-green-600 font-semibold">
+            <div className="flex">
+              <p className="text-xl text-green-600 font-semibold">
                 Meet all customers
               </p>
               <Image src={right} alt="x" width={24} height={24} />
