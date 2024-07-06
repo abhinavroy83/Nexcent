@@ -7,6 +7,7 @@ import HeroSection from "@/components/HeroSection";
 import OurClient from "@/components/OurClient";
 import Community from "@/components/Community";
 import Unlock from "@/components/Unlock";
+import Achievments from "@/components/Achievments";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OurClient />
       <Community />
       <Unlock />
+      <Achievments />
     </main>
   );
 }
