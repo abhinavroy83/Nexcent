@@ -9,6 +9,7 @@ import Community from "@/components/Community";
 import Unlock from "@/components/Unlock";
 import Achievments from "@/components/Achievments";
 import Calender from "@/components/Calender";
+import Customer from "@/components/Customer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Unlock />
       <Achievments />
       <Calender />
+      <Customer />
     </main>
   );
 }
