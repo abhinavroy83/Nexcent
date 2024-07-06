@@ -34,13 +34,13 @@ function Customer() {
     },
   ];
   return (
-    <div className=" w-full py-6 px-2 ">
+    <div className=" w-full py-6 px-2 bg-green-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 ">
       <div className=" flex max-w-7xl  justify-between items-center mx-auto  ">
         <div>
           <Image src={icon} alt="x" width={326} height={326} />
         </div>
         <div>
-          <p className=" text-sm  max-w-2xl text-gray-500 text-justify">
+          <p className=" text-sm  max-w-2xl text-gray-500 text-justify dark:text-white">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida
@@ -65,7 +65,9 @@ function Customer() {
               </div>
             ))}
             <div className=" flex">
-              <p className=" text-xl text-green-600 font-semibold">Meet all customers</p>
+              <p className=" text-xl text-green-600 font-semibold">
+                Meet all customers
+              </p>
               <Image src={right} alt="x" width={24} height={24} />
             </div>
           </div>

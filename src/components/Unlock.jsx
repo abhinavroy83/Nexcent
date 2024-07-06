@@ -10,10 +10,10 @@ function Unlock() {
           <Image src={icon} alt="x" width={441} height={433} />
         </div>
         <div>
-          <p className=" text-4xl font-semibold text-gray-700 max-w-screen-sm ">
+          <p className=" text-4xl font-semibold text-gray-700 max-w-screen-sm dark:text-white ">
             The unseen of spending three years at Pixelgrade
           </p>
-          <p className=" text-sm  max-w-2xl text-gray-500 text-justify py-4">
+          <p className=" text-sm  max-w-2xl text-gray-500 text-justify py-4 dark:text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
             Pellentesque placerat vestibulum lorem sed porta. Nullam mattis

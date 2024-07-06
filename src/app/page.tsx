@@ -11,6 +11,7 @@ import Achievments from "@/components/Achievments";
 import Calender from "@/components/Calender";
 import Customer from "@/components/Customer";
 import Community_update from "@/components/Community_update";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Calender />
       <Customer />
       <Community_update />
+      <Footer />
     </main>
   );
 }

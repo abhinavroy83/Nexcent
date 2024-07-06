@@ -3,7 +3,7 @@ import Illustration from "../../public/Illustration.png";
 
 function HeroSection() {
   return (
-    <div className="w-full  bg-green-50 py-14 ">
+    <div className="w-full  bg-green-50 py-14 dark:bg-gray-900 text-gray-900 dark:text-gray-100 ">
       <div className=" flex max-w-7xl justify-between items-center mx-auto ">
         <div>
           <div className=" px-14">

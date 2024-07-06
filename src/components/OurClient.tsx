@@ -33,13 +33,13 @@ function OurClient() {
   ];
 
   return (
-    <div className=" w-full py-6  mx-auto px-2 ">
+    <div className=" w-full py-6  mx-auto px-2 dark:bg-gray-900  dark:text-white ">
       <div className=" flex flex-col max-w-7xl justify-between items-center mx-auto  ">
-        <div className=" mx-auto">
-          <p className=" text-4xl text-center font-semibold text-gray-700 ">
+        <div className=" mx-auto ">
+          <p className=" text-4xl text-center font-semibold text-gray-700  dark:text-white">
             Our Clients
           </p>
-          <p className=" text-xl text-gray-500 py-4">
+          <p className=" text-xl text-gray-500 py-4 dark:text-white ">
             We have been working with some Fortune 500+ clients
           </p>
         </div>
