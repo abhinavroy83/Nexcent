@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex w-full flex-col mx-auto ">
+    <>
       <NavBar />
       <HeroSection />
       <OurClient />
@@ -26,6 +26,6 @@ export default function Home() {
       <Customer />
       <Community_update />
       <Footer />
-    </main>
+    </>
   );
 }

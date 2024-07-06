@@ -19,13 +19,13 @@ function Achievments() {
             We reached here with our hard work and dedication
           </p>
         </div>
-        <div className=" grid grid-cols-2 gap-6 lg:gap-14 lg:grid-cols-2 ">
-          <div className=" flex justify-center items-center gap-4">
+        <div className=" grid grid-cols-2 gap-4 lg:gap-14 lg:grid-cols-2 ">
+          <div className=" flex justify-center items-center gap-2 lg:gap-4">
             <div>
               <Image src={icon} alt="x" width={58} height={58} />
             </div>
             <div>
-              <p className="text-2xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
+              <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
                 2,245,341
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white ">
@@ -33,12 +33,12 @@ function Achievments() {
               </p>
             </div>
           </div>
-          <div className=" flex justify-center items-center gap-4">
+          <div className=" flex justify-center items-center  gap-1 lg:gap-4">
             <div>
               <Image src={icon2} alt="x" width={58} height={58} />
             </div>
             <div>
-              <p className="text-2xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white ">
+              <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white ">
                 46,328
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white">
@@ -46,12 +46,12 @@ function Achievments() {
               </p>
             </div>
           </div>
-          <div className=" flex justify-center items-center gap-4">
+          <div className=" flex justify-center items-center gap-2 lg:gap-4">
             <div>
               <Image src={icon3} alt="x" width={58} height={58} />
             </div>
             <div>
-              <p className="text-2xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
+              <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
                 828,867
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white">
@@ -59,7 +59,7 @@ function Achievments() {
               </p>
             </div>
           </div>
-          <div className=" flex justify-center items-center gap-4 ml-6">
+          <div className=" flex justify-center items-center gap-2 lg:gap-4 lg:ml-6">
             <div>
               <Image src={icon4} alt="x" width={52} height={52} />
             </div>

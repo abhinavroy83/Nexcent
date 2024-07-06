@@ -7,7 +7,7 @@ function Community_update() {
   return (
     <div className=" w-full py-6  mx-auto px-2 ">
       <div className=" flex flex-col max-w-7xl justify-between items-center mx-auto  ">
-        <div className=" mx-auto max-w-2xl">
+        <div className=" mx-auto lg:max-w-2xl">
           <p className=" text-4xl font-semibold text-center py-1">
             Caring is the new marketing
           </p>
@@ -18,7 +18,7 @@ function Community_update() {
             membership income and lot's more.​
           </p>
         </div>
-        <div className=" flex justify-between gap-8">
+        <div className="flex flex-wrap lg:flex justify-between gap-4 lg:gap-8">
           <div className="relative my-2 h-96 ">
             <Image src={pic1} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
