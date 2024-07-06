@@ -23,12 +23,12 @@ function Community_update() {
             <Image src={pic1} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
               <div className="w-80 h-44 rounded-md bg-slate-200 flex flex-col items-center justify-center">
-                <p className="text-xl font-semibold text-center">
+                <p className="text-xl font-semibold text-center dark:text-gray-700 py-2">
                   Creating Streamlined Safeguarding Processes with OneRen
                 </p>
                 <div className=" flex">
                   <p className=" text-xl text-green-600 font-semibold">
-                    Meet all customers
+                    Read More
                   </p>
                   <Image src={right} alt="x" width={24} height={24} />
                 </div>
@@ -39,12 +39,13 @@ function Community_update() {
             <Image src={pic1} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
               <div className="w-80 h-44 rounded-md bg-slate-200 flex flex-col items-center justify-center">
-                <p className="text-xl font-semibold text-center">
-                  Creating Streamlined Safeguarding Processes with OneRen
+                <p className="text-xl font-semibold text-center dark:text-gray-700 py-2">
+                  What are your safeguarding responsibilities and how can you
+                  manage them?{" "}
                 </p>
                 <div className=" flex">
                   <p className=" text-xl text-green-600 font-semibold">
-                    Meet all customers
+                    Read More
                   </p>
                   <Image src={right} alt="x" width={24} height={24} />
                 </div>
@@ -55,12 +56,12 @@ function Community_update() {
             <Image src={pic1} alt="x" />
             <div className="absolute  bottom-0 w-full flex justify-center">
               <div className="w-80 h-44  rounded-md bg-slate-200 flex flex-col items-center justify-center">
-                <p className="text-xl font-semibold text-center">
-                  Creating Streamlined Safeguarding Processes with OneRen
+                <p className="text-xl font-semibold text-center dark:text-gray-700 py-2">
+                  Revamping the Membership Model with Triathlon Australia{" "}
                 </p>
                 <div className=" flex">
                   <p className=" text-xl text-green-600 font-semibold">
-                    Meet all customers
+                    Read More
                   </p>
                   <Image src={right} alt="x" width={24} height={24} />
                 </div>

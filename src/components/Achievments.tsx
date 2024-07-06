@@ -1,9 +1,13 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import icon from "../../public/Vector (2).png";
 import icon3 from "../../public/Vector (3).png";
 import icon4 from "../../public/Vector (4).png";
 import icon2 from "../../public/Group 2.png";
+import CountUp from "react-countup";
+
 function Achievments() {
   return (
     <div className=" w-full py-16 bg-green-50 px-2 dark:bg-gray-900 text-gray-900 dark:text-gray-100 ">
@@ -26,7 +30,7 @@ function Achievments() {
             </div>
             <div>
               <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
-                2,245,341
+                <CountUp end={2245341} duration={3} separator="," />
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white ">
                 Members
@@ -39,7 +43,7 @@ function Achievments() {
             </div>
             <div>
               <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white ">
-                46,328
+                <CountUp end={46328} duration={3} separator="," />
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white">
                 Clubs
@@ -52,7 +56,7 @@ function Achievments() {
             </div>
             <div>
               <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white">
-                828,867
+                <CountUp end={828867} duration={3} separator="," />
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white">
                 Event Bookings
@@ -65,7 +69,7 @@ function Achievments() {
             </div>
             <div>
               <p className="text-xl lg:text-3xl py-1 font-bold text-gray-800 dark:text-white ">
-                1,926,436
+                <CountUp end={1926436} duration={3} separator="," />
               </p>
               <p className=" text-xl  text-gray-600 font-normal py-1 dark:text-white">
                 Payments
